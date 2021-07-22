@@ -1,0 +1,64 @@
+responses:
+   utter_greet:
+       - text: |
+           Hello! How can I help you?
+       - text: |
+           Hi!
+       - text: |
+           Howdy!
+       - text: |
+           Holla!
+   utter_ask_email:
+       - text: |
+           What is your email address?
+       - text: |
+           Can I get you email address?
+       - text: |
+           Please write your email address?
+       - text: |
+           Can you enter you email address please?
+   utter_reason:
+       - text: |
+           Why would you like to unsubscribe?
+       - text: |
+           Can you please explain why?
+       - text: |
+           Is there a reason for this change of mind?
+       - text: |
+           Sorry to see you leave. Let us know why.
+   utter_subscribed:
+       - text: |
+           Check your inbox at {email} in order to finish subscribing to the newsletter!
+       - text: |
+           You're all set! Check your inbox at {email} to confirm your subscription.
+       - text: |
+           Great! To finish your subscription, check your inbox at {email}.
+       - text: |
+           Awesome! Complete the process by checking your inbox for the email: {email}.
+    utter_unsubscribe:
+        - text: |
+           That's ok, we understand.
+       - text: |
+           No problem here, we will unsubsribe you.
+       - text: |
+           It is sad to see you go, your unsubscribtion is finished.
+       - text: |
+           All done, you are not subscribed anymore.
+    utter_thankyou:
+        - text: |
+            Glad I could help.
+        - text: |
+            It is my pleasure.
+        - text: |
+            No problem.
+        - text: |
+            You are very welcome.
+    utter_goodbye:
+        - text: |
+            See ya.
+        - text: |
+            Have a nice day.
+        - text: |
+            Goodbye.
+        - text: |
+            Bye.
