@@ -3,11 +3,11 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
-- inform
-- subscribe
-- thankyou
 - goodbye
+- subscribe
+- inform
+- greet
+- thankyou
 - unsubscribe
 - explain
 slots:
@@ -82,12 +82,12 @@ responses:
       Sorry to see you leave. Let us know why.
 actions:
 - '...'
+- utter_goodbye
 - utter_greet
+- utter_reason
 - utter_subscribed
 - utter_thankyou
-- utter_goodbye
 - utter_unsubscribe
-- utter_reason
 forms:
   newsletter_form:
     required_slots:
